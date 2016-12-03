@@ -7,11 +7,10 @@ class Log extends DataObject
         'Category' => 'Enum(array("ERROR","ACCESS","GENERAL", "FILES", "CONFIGURATION"), "GENERAL")',
         'Method' => 'Varchar',
         'Action' => 'Varchar',
-        'Source' => 'Varchar(2)',
+        'Source' => 'Enum(array("FE","BE"), "FE")',
         'UserAgent' => 'Varchar',
         'IpAddress' => 'Varchar',
         'Message' => 'Text',
-
     );
 
     private static $has_one = array(
@@ -19,7 +18,7 @@ class Log extends DataObject
     );
 
     static $default_sort = "Created DESC";
-    
+
     public static $summary_fields = array(
         //'Method',
         'Category',
