@@ -1,5 +1,5 @@
 # DbLog
-Silverstripe module that allows easy logging to database with backend-filtering for certain events/methods/messages etc. 
+Silverstripe module that allows easy logging to database with backend-filtering for certain methods/messages etc. 
 
 **Code example:**
 ```
