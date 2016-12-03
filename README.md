@@ -3,7 +3,7 @@ Silverstripe module that allows easy logging to database with backend-filtering 
 
 **Code examples:**
 ```
-  DBLogger::log($data, __METHOD__, SS_LOG_ERROR);
+  DBLogger::log($data, __METHOD__, SS_LOG_GENERAL);
 
   DBLogger::log('Invalid parameter given', __METHOD__, SS_LOG_ERROR);
 
