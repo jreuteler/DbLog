@@ -18,6 +18,8 @@ class Log extends DataObject
         'Member' => 'Member',
     );
 
+    static $default_sort = "Created DESC";
+    
     public static $summary_fields = array(
         //'Method',
         'Category',
