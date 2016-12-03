@@ -11,6 +11,6 @@ class LogAdmin extends ModelAdmin
         'Log'
     );
 
-    private static $menu_icon = 'DbLog/icons/logs_16x16.png';
+    private static $menu_icon = 'dbLog/icons/logs.png';
 
 }
