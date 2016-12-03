@@ -14,7 +14,7 @@ class DBLogger
     {
         $log = Log::create();
 
-        if (is_array($message)) {
+        if (is_array($message) || is_object($message)) {
             $log->Message = print_r($message, true);
         } else {
             $log->Message = $message;
