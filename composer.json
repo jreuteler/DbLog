@@ -1,0 +1,25 @@
+{
+  "name": "jreuteler/silverstripe-db-log",
+  "description": "Adds a database logger and log-search/filtering in the backend.",
+  "keywords": [
+    "silverstripe",
+    "log",
+    "logger",
+    "db",
+    "database"
+  ],
+  "homepage": "https://github.com/jreuteler/DbLog",
+  "type": "silverstripe-module",
+  "require": {
+  },
+  "extra": {
+    "installer-name": "db-log"
+  },
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jan Reuteler",
+      "email": "janreuteler@icloud.com"
+    }
+  ]
+}
