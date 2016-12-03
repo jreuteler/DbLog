@@ -1,11 +1,11 @@
 <?php
 
-// log category constants
-define('SS_ERROR', 'ERROR');
-define('SS_ACCESS', 'ACCESS');
-define('SS_GENERAL', 'GENERAL');
-define('SS_FILES', 'FILES');
-define('SS_CONFIGURATION', 'CONFIGURATION');
+// log-category constants
+define('SS_LOG_ERROR', 'ERROR');
+define('SS_LOG_ACCESS', 'ACCESS');
+define('SS_LOG_GENERAL', 'GENERAL');
+define('SS_LOG_FILES', 'FILES');
+define('SS_LOG_CONFIGURATION', 'CONFIGURATION');
 
 class DBLogger
 {
