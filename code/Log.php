@@ -20,10 +20,9 @@ class Log extends DataObject
     static $default_sort = "Created DESC";
 
     public static $summary_fields = array(
-        //'Method',
         'Category',
+        'Method',
         'Source',
-        'Action',
         'Message',
         'Created',
     );
